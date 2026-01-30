@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sneakers Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  
+  <header class="navbar">
+      
+    <nav>
+      <h2 class="logo">sneakers</h2>
+      <a href="#">Collections</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  
+  
+    <div class="icons">
+     <i class="fa-solid fa-cart-shopping"></i>
+      <img src="https://i.pravatar.cc/40" alt="user" />
+    </div>
+  </header>
+
+
+  <section class="product">
+    <div class="gallery">
+      <img id="main" class="main-img" src="images/image-product-1.jpg" />
+      <div class="gallery-images">
+        <img src="images/image-product-1.jpg" onclick="main.src = this.src" class="products-Overflow"/>
+        <img src="images/image-product-2.jpg" onclick="main.src = this.src" class="products-Overflow"/>
+        <img src="images/image-products-3.jpg" onclick="main.src = this.src" class="products-Overflow"/>
+        <img src="images/image-product-4.jpg" onclick="main.src = this.src" class="products-Overflow"/>
+      </div>
+    </div>
+
+    <div class="info">
+      <span class="brand">SNEAKER COMPANY</span>
+      <h2>Fall Limited Edition Sneakers</h2>
+      <p>
+        These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole.
+      </p>
+
+      <div class="price">
+        <div>
+          <strong>$125.00</strong>
+          <span class="discount">50%</span>
+        </div>
+        <small>$250.00</small>
+      </div>
+
+      <div class="actions">
+        <div class="counter">
+          <button>-</button>
+          <span>0</span>
+          <button>+</button>
+        </div>
+        <button class="cart-btn"> Add to cart <i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
